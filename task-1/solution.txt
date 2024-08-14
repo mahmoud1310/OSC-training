@@ -1,0 +1,37 @@
+(mahmoud㉿kali)-[~]
+└─$ mkdir mahmoud                                                             
+┌──(mahmoud㉿kali)-[~]
+└─$ cd mahmoud                                                                                                                                                
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ touch one.txt two.txt three.txt four.txt                                                                                              
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ mkdir bad                                                                                                                                                     
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ cd bad                                                                                                                                                    
+┌──(mahmoud㉿kali)-[~/mahmoud/bad]
+└─$ touch bad.txt                                                                                                                                                       
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ mv one.txt ~/Downloads                                                                                                            
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ cd ~                                                                                                                                                      
+┌──(mahmoud㉿kali)-[~]
+└─$ cd Downloads                                                                                                                             
+┌──(mahmoud㉿kali)-[~/Downloads]
+└─$ cp one.txt copy.txt                                                                                                                                               
+┌──(mahmoud㉿kali)-[~/Downloads]
+└─$ cd ~                                                                                                                                                                
+┌──(mahmoud㉿kali)-[~]
+└─$ cd mahmoud                                                                                                                                                 
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ nano two.txt                                                                                                                                         
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ cat two.txt
+mahmoud                                                                                                                   
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" >three.txt                                                                                    
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ mv three.txt hello.txt                                                                                                      
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ rm four.txt                                                                                                                                             
+┌──(mahmoud㉿kali)-[~/mahmoud]
+└─$ rm -r bad      
