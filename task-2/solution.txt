@@ -1,0 +1,43 @@
+mahmoud@DESKTOP-60O695E MINGW64 ~ (master)
+$ git config --global user.name "mahmoud"
+mahmoud@DESKTOP-60O695E MINGW64 ~ (master)
+$ git config --global user.email "elbadawy2005@gmail.com"
+mahmoud@DESKTOP-60O695E MINGW64 ~ (master)
+$ git clone https://github.com/mahmoud1310/OSC-training.git
+mahmoud@DESKTOP-60O695E MINGW64 ~ (master)
+$ cd osc-training
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training (main)
+$ mkdir task-2
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training (main)
+$ cd task-2
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ touch greeting.txt
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ echo "hello world" > greeting.txt
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ cat greeting.txt
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git add greeting.txt
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git status
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git commit -m "adding greeting"
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git branch intro
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git checkout intro
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (intro)
+$ echo "i love git" >> greeting.txt
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (intro)
+$ git add greeting.txt
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (intro)
+$ git commit -m "added i love git"
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (intro)
+$ git checkout main
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git merge intro
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git tag v1
+mahmoud@DESKTOP-60O695E MINGW64 ~/osc-training/task-2 (main)
+$ git push origin main
+git push origin v1
