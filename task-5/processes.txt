@@ -1,0 +1,180 @@
+    937 (sd-pam)
+    810 /sbin/agetty -o -p -- \u --noclear - linux
+      1 /sbin/init splash
+   1039 /usr/bin/VBoxClient --clipboard
+   1040 /usr/bin/VBoxClient --clipboard
+   1062 /usr/bin/VBoxClient --draganddrop
+   1063 /usr/bin/VBoxClient --draganddrop
+   1054 /usr/bin/VBoxClient --seamless
+   1055 /usr/bin/VBoxClient --seamless
+   1125 /usr/bin/VBoxClient --vmsvga
+   1127 /usr/bin/VBoxClient --vmsvga
+   1092 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+    958 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    592 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    959 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   1116 /usr/bin/gpg-agent --supervised
+    952 /usr/bin/pipewire
+    953 /usr/bin/pipewire -c filter-chain.conf
+    957 /usr/bin/pipewire-pulse
+   1298 /usr/bin/python3 /usr/bin/blueman-applet
+   2607 /usr/bin/qterminal
+   1075 /usr/bin/ssh-agent x-session-manager
+    955 /usr/bin/wireplumber
+   2618 /usr/bin/zsh
+    594 /usr/lib/polkit-1/polkitd --no-debug
+    936 /usr/lib/systemd/systemd --user
+    375 /usr/lib/systemd/systemd-journald
+    595 /usr/lib/systemd/systemd-logind
+    415 /usr/lib/systemd/systemd-udevd
+   1264 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+   1249 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+   1198 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 22 27262994 actions Action Buttons Log out, lock or other system actions
+   1190 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 27262988 cpugraph CPU Graph Graphical representation of the CPU load
+   1192 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 27262990 genmon Generic Monitor Show output of a command.
+   1194 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 27262992 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+   1193 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 27262991 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+   1191 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 27262989 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+   1183 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 27262983 whiskermenu Whisker Menu Show a menu to easily access installed applications
+   1195 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 27262993 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+   1097 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+    808 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+    590 /usr/libexec/accounts-daemon
+   1085 /usr/libexec/at-spi-bus-launcher
+   1104 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1516 /usr/libexec/bluetooth/obexd
+   1335 /usr/libexec/colord
+   1325 /usr/libexec/dconf-service
+   1343 /usr/libexec/geoclue-2.0/demos/agent
+   1413 /usr/libexec/gvfs-afc-volume-monitor
+   1427 /usr/libexec/gvfs-goa-volume-monitor
+   1393 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1453 /usr/libexec/gvfs-mtp-volume-monitor
+   1292 /usr/libexec/gvfs-udisks2-volume-monitor
+   1128 /usr/libexec/gvfsd
+   1138 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   1498 /usr/libexec/gvfsd-metadata
+   1487 /usr/libexec/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+   1297 /usr/libexec/polkit-mate-authentication-agent-1
+    856 /usr/libexec/rtkit-daemon
+   1315 /usr/libexec/udisks2/udisksd
+   1165 /usr/libexec/upowerd
+    679 /usr/sbin/ModemManager
+    629 /usr/sbin/NetworkManager --no-daemon
+    702 /usr/sbin/VBoxService
+    644 /usr/sbin/cron -f
+    492 /usr/sbin/haveged --Foreground --verbose=1
+    798 /usr/sbin/lightdm
+   1176 Thunar --sm-client-id 2d458988c-ebea-4704-b2be-bc1e80302af5 --daemon
+     20 [cpuhp/0]
+     21 [cpuhp/1]
+     27 [cpuhp/2]
+     33 [cpuhp/3]
+     19 [idle_inject/0]
+     22 [idle_inject/1]
+     28 [idle_inject/2]
+     34 [idle_inject/3]
+    230 [irq/18-vmwgfx]
+    312 [jbd2/sda1-8]
+     48 [kauditd]
+     53 [kcompactd0]
+     45 [kdevtmpfs]
+     55 [khugepaged]
+     49 [khungtaskd]
+     54 [ksmd]
+     16 [ksoftirqd/0]
+     24 [ksoftirqd/1]
+     30 [ksoftirqd/2]
+     36 [ksoftirqd/3]
+     64 [kswapd0]
+      2 [kthreadd]
+      8 [kworker/0:0-mm_percpu_wq]
+      9 [kworker/0:1-cgroup_destroy]
+     63 [kworker/0:1H-kblockd]
+   1466 [kworker/0:2H]
+   4374 [kworker/1:0-ata_sff]
+     66 [kworker/1:1-mm_percpu_wq]
+    197 [kworker/1:1H-kblockd]
+    331 [kworker/1:2-ata_sff]
+   1457 [kworker/1:2H]
+     32 [kworker/2:0H-kblockd]
+    202 [kworker/2:2-events]
+    267 [kworker/2:2H-kblockd]
+    265 [kworker/2:3-mm_percpu_wq]
+   4315 [kworker/3:0-events]
+     38 [kworker/3:0H-events_highpri]
+     59 [kworker/3:1-events]
+    960 [kworker/3:2H-kblockd]
+   1553 [kworker/3:3-events]
+     76 [kworker/R-acpi_]
+    214 [kworker/R-ata_s]
+     58 [kworker/R-blkcg]
+    203 [kworker/R-crypt]
+     62 [kworker/R-devfr]
+     61 [kworker/R-edac-]
+    313 [kworker/R-ext4-]
+     46 [kworker/R-inet_]
+     79 [kworker/R-ipv6_]
+     57 [kworker/R-kbloc]
+     56 [kworker/R-kinte]
+     85 [kworker/R-kstrp]
+     74 [kworker/R-kthro]
+     77 [kworker/R-mld]
+     12 [kworker/R-mm_pe]
+      7 [kworker/R-netns]
+      4 [kworker/R-rcu_g]
+      5 [kworker/R-rcu_p]
+    627 [kworker/R-rpcio]
+    224 [kworker/R-scsi_]
+    231 [kworker/R-scsi_]
+    239 [kworker/R-scsi_]
+      6 [kworker/R-slub_]
+     60 [kworker/R-tpm_d]
+    232 [kworker/R-ttm]
+     52 [kworker/R-write]
+    628 [kworker/R-xprti]
+     40 [kworker/u10:0-events_unbound]
+    215 [kworker/u10:1-events_unbound]
+    218 [kworker/u10:2-flush-8:0]
+     44 [kworker/u11:1-writeback]
+    199 [kworker/u11:2-events_unbound]
+    528 [kworker/u11:3-events_unbound]
+     42 [kworker/u12:0-flush-8:0]
+     80 [kworker/u12:1-events_unbound]
+    240 [kworker/u12:3-events_unbound]
+     87 [kworker/u13:0]
+     88 [kworker/u14:0]
+     89 [kworker/u15:0]
+     90 [kworker/u16:0]
+     91 [kworker/u17:0]
+    413 [kworker/u8:1-ext4-rsv-conversion]
+    747 [kworker/u8:2]
+     39 [kworker/u9:0-events_unbound]
+     47 [kworker/u9:1-events_unbound]
+     18 [migration/0]
+     23 [migration/1]
+     29 [migration/2]
+     35 [migration/3]
+     50 [oom_reaper]
+      3 [pool_workqueue_release]
+    455 [psimon]
+    828 [psimon]
+     17 [rcu_preempt]
+     13 [rcu_tasks_kthread]
+     14 [rcu_tasks_rude_kthread]
+     15 [rcu_tasks_trace_kthread]
+    220 [scsi_eh_0]
+    229 [scsi_eh_1]
+    236 [scsi_eh_2]
+   1336 light-locker
+    928 lightdm --session-child 13 24
+   1321 nm-applet
+   4919 ps -e --sort=cmd -o pid=,cmd=
+   1349 xcape -e Super_L Control_L Escape
+   1171 xfce4-panel --display :0.0 --sm-client-id 2726d2335-8660-409e-8120-4a2906591718
+   1261 xfce4-power-manager --restart --sm-client-id 2ba0d9b7c-cd90-48d1-a8fb-ca5161ebcd23
+    986 xfce4-session
+   1182 xfdesktop --display :0.0 --sm-client-id 282ce4850-e070-488e-9786-908e5b618c99
+   1161 xfsettingsd --display :0.0 --sm-client-id 297360424-7b5a-4930-af4c-0675466afa63
+   1118 xfwm4 --display :0.0 --sm-client-id 251059672-5c3b-433b-b087-e00548d46ca2
+   1295 xiccd
